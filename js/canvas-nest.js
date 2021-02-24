@@ -27,7 +27,7 @@
     function i() {
         x.clearRect(0, 0, a, d);
         var n, t, e, o, u, l, y, h;
-				var grd = null, colors = ['#00fa71', '#0096fa', '#0043fa', '#0000ff'], cc = '';;
+				var grd = null, colors = ['#00fa71', '#0096fa', '#0043fa', '#0000ff'], cc = '';
         w.forEach(function (i, r) {
             for (
 							t = r + 1; 
