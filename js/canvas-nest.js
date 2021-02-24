@@ -47,7 +47,7 @@
 										l < n.max && (e = (n.max - l) / n.max, 
 										x.beginPath(), 
 										x.lineWidth = e / 2, 
-										grd = x.createLinearGradient(r.x, r.y, s.x, s.y),
+										grd = x.createLinearGradient(i.x, i.y, n.x, n.y),
 										grd.addColorStop(0,colors[0]),
 										grd.addColorStop(2/4, colors[1]),
 										grd.addColorStop(3/4, colors[2]),
