@@ -46,7 +46,7 @@
 										i.yd = (Math.abs(h) > Math.abs(u) && Math.abs(h) * Math.abs(u) > 0 ? -1 : 1) * l / n.max * 2 * i.ya) : (i.xd = 0, i.yd = 0)), 
 										l < n.max && (e = (n.max - l) / n.max, 
 										x.beginPath(), 
-										x.lineWidth = e / 2, 
+										x.lineWidth = e * 2 / 3, 
 										grd = x.createLinearGradient(i.x, i.y, n.x, n.y),
 										grd.addColorStop(0,colors[0]),
 										grd.addColorStop(2/4, colors[1]),
