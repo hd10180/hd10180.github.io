@@ -345,7 +345,9 @@ function() {
                 c = void 0,
                 l = void 0,
                 d = void 0,
-                v = void 0,grd=null;
+									v = void 0,
+									grd = null,
+									colors = ['#ff0000','#ff7d00','#ffff00','#00ff00','#0000ff', '#00ffff', '#ff00ff'];
 							r.forEach(function (r, f) {
 									
                     for (
@@ -365,12 +367,13 @@ function() {
 													c = (s.max - v) / s.max, 
 													t.beginPath(), 
 													t.lineWidth = c / 2, 
-													grd = t.createLinearGradient(r.x, r.y, s.x, s.y),
-													grd.addColorStop(0,'yellow'),
-													grd.addColorStop(0.5,'red'),
-													grd.addColorStop(1,'blue'),
-													t.strokeStyle = grd,
+													// grd = t.createLinearGradient(r.x, r.y, s.x, s.y),
+													// grd.addColorStop(0,'yellow'),
+													// grd.addColorStop(0.5,'red'),
+													// grd.addColorStop(1,'blue'),
+													// t.strokeStyle = grd,
 													// t.strokeStyle = "rgba(" + e.c.color + "," + (c + .2) + ")", 
+													t.strokeStyle = colors[Math.floor(Math.random()*colors.length)],
 													t.moveTo(r.x, r.y), 
 													t.lineTo(s.x, s.y), 
 													t.stroke()
@@ -394,7 +397,7 @@ function() {
     } ();
     y.version = "2.0.4";
     var w, b;
-    new y(document.body, (w = document.getElementsByTagName("script"), {
+    new y(document.getElementsByTagName("main")[0], (w = document.getElementsByTagName("script"), {
         zIndex: (b = w[w.length - 1]).getAttribute("zIndex"),
         opacity: b.getAttribute("opacity"),
         color: b.getAttribute("color"),
