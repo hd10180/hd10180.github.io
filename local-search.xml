@@ -8,7 +8,7 @@
     <link href="/2021/03/05/%E8%A7%A3%E5%86%B3manjaro-kde%E4%BF%AE%E6%94%B9%E4%B8%BB%E9%A2%98%E7%AD%89%E6%97%A0%E6%B3%95%E6%89%93%E5%BC%80%E7%B3%BB%E7%BB%9F%E8%AE%BE%E7%BD%AE%E9%97%AE%E9%A2%98/"/>
     <url>/2021/03/05/%E8%A7%A3%E5%86%B3manjaro-kde%E4%BF%AE%E6%94%B9%E4%B8%BB%E9%A2%98%E7%AD%89%E6%97%A0%E6%B3%95%E6%89%93%E5%BC%80%E7%B3%BB%E7%BB%9F%E8%AE%BE%E7%BD%AE%E9%97%AE%E9%A2%98/</url>
     
-    <content type="html"><![CDATA[<p>初次使用manjaro（各个linux也差不多）遇到的问题比较多（生命在于折腾），本文遇到的问题也是典型的一个。</p><h2 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h2><p><code>manjaro kde</code>在切换主题或者进行主题混搭后（我是试图使用mac主题混搭），可能会出现系统设置无法打开的情况，点击系统设置后，鼠标转圈完成并不会出现系统设置</p><h2 id="寻求答案"><a href="#寻求答案" class="headerlink" title="寻求答案"></a>寻求答案</h2><p>参考<a href="https://forum.manjaro.org/t/the-system-settings-doesnt-open/21787/11">这个帖子</a></p><h2 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案"></a>解决方案</h2><p>在konsole中输入<code>systemsettings5 --style=Breeze</code>，然后将重新设置一个主题，搞定</p>]]></content>
+    <content type="html"><![CDATA[<p>初次使用manjaro kde（各个linux也差不多）遇到的问题比较多（生命在于折腾），本文遇到的问题也是典型的一个。</p><h2 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h2><p><code>manjaro kde</code>在切换主题或者进行主题混搭后（我是试图使用mac主题混搭），可能会出现系统设置无法打开的情况，点击系统设置后，鼠标转圈完成并不会出现系统设置</p><h2 id="寻求答案"><a href="#寻求答案" class="headerlink" title="寻求答案"></a>寻求答案</h2><p>参考<a href="https://forum.manjaro.org/t/the-system-settings-doesnt-open/21787/11">这个帖子</a></p><h2 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案"></a>解决方案</h2><p>在konsole中输入<code>systemsettings5 --style=Breeze</code>，然后将重新设置一个主题，搞定</p>]]></content>
     
     
     
