@@ -4,6 +4,19 @@
   
   
   <entry>
+    <title>修改wine微信等应用dpi，调整缩放</title>
+    <link href="/2021/03/08/%E4%BF%AE%E6%94%B9wine%E5%BE%AE%E4%BF%A1%E7%AD%89%E5%BA%94%E7%94%A8dpi%EF%BC%8C%E8%B0%83%E6%95%B4%E7%BC%A9%E6%94%BE/"/>
+    <url>/2021/03/08/%E4%BF%AE%E6%94%B9wine%E5%BE%AE%E4%BF%A1%E7%AD%89%E5%BA%94%E7%94%A8dpi%EF%BC%8C%E8%B0%83%E6%95%B4%E7%BC%A9%E6%94%BE/</url>
+    
+    <content type="html"><![CDATA[<p>manjaro kde折腾记录四：调整wine微信等应用缩放</p><h2 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h2><p>我这边安装的是<code>com.qq.weixin.spark</code>和<code>com.qq.tim.spark</code><br>安装完成后界面显示很小，在我的显示器上显得特别的小，输入框的乱码方框问题在前面的折腾中已经解决，但无法直视当前特别小的应用界面</p><h2 id="寻求答案"><a href="#寻求答案" class="headerlink" title="寻求答案"></a>寻求答案</h2><p>参考<a href="https://aur.archlinux.org/packages/com.qq.weixin.spark//">aur下的评论</a></p><h2 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案"></a>解决方案</h2><p>控制台输入<code>WINEPREFIX=~/.deepinwine/Spark-WeChat deepin-wine5 winecfg</code>回车，其中<code>~/.deepinwine/Spark-WeChat</code>这部分参考各自系统目录，在弹出的界面中点击【显示】在【屏幕分辨率】中进行dpi设置，我的4k显示器中设置为144dpi就很自然，显示不会很小，字体很清晰不模糊</p><h2 id="题外话"><a href="#题外话" class="headerlink" title="题外话"></a>题外话</h2><p>wine的TIM可以控制台输入<code>WINEPREFIX=~/.deepinwine/Spark-TIM deepin-wine5 winecfg</code>做同样的调整，但是注意调整TIM的时候，在wine设置中，【应用程序】的【Windows版本】现在只能选Windows XP，否则TIM会打不开，原因未知</p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>解决manjaro kde中wine微信等应用输入中文显示方框的问题</title>
     <link href="/2021/03/06/%E8%A7%A3%E5%86%B3manjaro-kde%E4%B8%ADdeepin%E5%BE%AE%E4%BF%A1%E7%AD%89%E5%BA%94%E7%94%A8%E8%BE%93%E5%85%A5%E4%B8%AD%E6%96%87%E6%98%BE%E7%A4%BA%E6%96%B9%E6%A1%86%E7%9A%84%E9%97%AE%E9%A2%98/"/>
     <url>/2021/03/06/%E8%A7%A3%E5%86%B3manjaro-kde%E4%B8%ADdeepin%E5%BE%AE%E4%BF%A1%E7%AD%89%E5%BA%94%E7%94%A8%E8%BE%93%E5%85%A5%E4%B8%AD%E6%96%87%E6%98%BE%E7%A4%BA%E6%96%B9%E6%A1%86%E7%9A%84%E9%97%AE%E9%A2%98/</url>
