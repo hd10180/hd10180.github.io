@@ -4,6 +4,19 @@
   
   
   <entry>
+    <title>manjaro 无法连接互联网 无法访问互联网</title>
+    <link href="/2021/03/22/manjaro-%E6%97%A0%E6%B3%95%E8%BF%9E%E6%8E%A5%E4%BA%92%E8%81%94%E7%BD%91-%E6%97%A0%E6%B3%95%E8%AE%BF%E9%97%AE%E4%BA%92%E8%81%94%E7%BD%91/"/>
+    <url>/2021/03/22/manjaro-%E6%97%A0%E6%B3%95%E8%BF%9E%E6%8E%A5%E4%BA%92%E8%81%94%E7%BD%91-%E6%97%A0%E6%B3%95%E8%AE%BF%E9%97%AE%E4%BA%92%E8%81%94%E7%BD%91/</url>
+    
+    <content type="html"><![CDATA[<p>在试图使用PPPoE拨号访问有线网络失败，按照网上的一些操作处理之后依旧无法访问互联网<br>并且此时使用wifi连接网络，能连上wifi但是无法访问互联网的情况<br>可以使用<code>sudo dhcpcd</code>重新分配ip，然后就可以愉快地上网啦</p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>manjaro mysql 安装与卸载</title>
     <link href="/2021/03/18/manjaro-mysql-%E5%AE%89%E8%A3%85%E4%B8%8E%E5%8D%B8%E8%BD%BD/"/>
     <url>/2021/03/18/manjaro-mysql-%E5%AE%89%E8%A3%85%E4%B8%8E%E5%8D%B8%E8%BD%BD/</url>
