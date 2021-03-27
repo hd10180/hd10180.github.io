@@ -236,6 +236,7 @@
 
 <h2 id="尝试运行"><a href="#尝试运行" class="headerlink" title="尝试运行"></a>尝试运行</h2><p>直接使用<code>supervisord</code>就可以运行，不必指定配置文件</p>
 <h2 id="查看进程状态-坑"><a href="#查看进程状态-坑" class="headerlink" title="查看进程状态(坑)"></a>查看进程状态(坑)</h2><p>使用<code>supervisorctl</code>可以看到所有在运行的进程<br>如果输入后回车没有任何反应，说明上面的子进程<code>dev-flask</code>没有运行起来，需要检查配置文件<code>/etc/supervisord.conf</code>，看下最后一行的<code>files = /etc/supervisor.d/*.ini</code>是否与子进程配置文件所在目录一致<br>如果能看到<code>dev-flask</code>说明子进程配置文件配置正常，没运行起来就去查询<code>dev-flask.ini</code>配置的日志路径找日志</p>
+<h2 id="关闭supervisor"><a href="#关闭supervisor" class="headerlink" title="关闭supervisor"></a>关闭supervisor</h2><p><code>ps -fe | grep supervisor</code><br>找到对应的进程id执行kill</p>
 
             </div>
             <hr>
